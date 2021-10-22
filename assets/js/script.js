@@ -113,7 +113,6 @@ function generatePassword() {
     if (results.length === passwordLength) {
       break;
     } 
-    break;
   }
 
   // Password shows in box
