@@ -65,7 +65,7 @@ var numbersChar = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"];
 var specialChar = ["[", "]", "!", "/", "^", "$", "|", "?", "*", "+", "(", ")"];
 var results = [];
 
-// password generated
+// Password generated
 function generatePassword() {
   console.log("");
   var password = "";
@@ -87,17 +87,14 @@ function generatePassword() {
     break;
   } 
 
-  // input validated and at least one character type should be selected
+  // Input validated
   if (lowercase === false && uppercase === false && numeric === false && special === false) {
     alert("You must select lowercase, uppercase, numeric, and/or special characters for your password.")
     
     generatePassword();
   } 
 
-  console.log(passwordLength, lowercase, uppercase, numeric, special)
-  console.log(typeof passwordLength)
-  console.log(typeof lowercase)
-
+  // At least one character type should be selected
   while (passwordLength) {
     if (numeric === true) {
       results.push(getRandom(numbersChar));
@@ -122,10 +119,11 @@ function generatePassword() {
   
   console.log(results);
 
-  // password shows in box
+  // Password shows in box
   return results.join('');
 }
 
+// Set up random for arrays
 function getRandom(array) {
   var index = Math.floor(Math.random() * array.length);
   var element = array[index];
