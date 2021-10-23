@@ -14,7 +14,7 @@ The user clicks on the "Generate Password" button, and prompts come up. The user
 
 ## Webpage
 
-The following image shows a screenshot of the application: 
+The following image shows a screenshot of the application: ![ApplicationScreenshot](./assets/images/password-generator-site.png)
 
 You can access the GitHub repository here: https://github.com/fssaberi/password-generator.git. 
 
