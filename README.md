@@ -14,7 +14,9 @@ The user clicks on the "Generate Password" button, and prompts come up. The user
 
 ## Webpage
 
-You can access the GitHub repository here- https://github.com/fssaberi/password-generator.git. 
+The following image shows a screenshot of the application: 
 
-You can access the webpage here- https://fssaberi.github.io/password-generator/. 
+You can access the GitHub repository here: https://github.com/fssaberi/password-generator.git. 
+
+You can access the webpage here: https://fssaberi.github.io/password-generator/. 
 
